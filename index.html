@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seiji Nishimura's Portfolio Site</title>
+
+        <!--Normalize.css-->
+        <link rel="stylesheet" href="normalize.css">
+
+        <!--Style.css-->
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="desktop.css">
+        <link rel="stylesheet" href="tablet.css">
+        <link rel="stylesheet" href="mobile.css">
+
+        <!--Favicon:レガシーブラウザ用(32x32)-->
+        <link rel="icon" href="favicon.ico" sizes="32x32">
+    </head>
+
+    <body>
+        <!--タグでなくクラスにコード：別ページに別のスタイリング可とする-->
+        <header class="header">
+            <ul class="nav-menu">
+                <li class="menu-item"><a href="index.html#home">Home</a></li>
+                <li class="menu-item"><a href="index.html#works">Works</a></li>
+                <li class="menu-item"><a href="index.html#about">About</a></li>
+            </ul>
+        </header>
+
+        <main class="main">
+
+            <section class="home" id="home">
+                <div class="container">
+                    <div class="text1">
+                        <h2>My name is Seiji Nishimura.</h2>
+                        <h2>I'm currently learning web design.</h2>
+                        <p>ほかの作品のコードは、こちらの<a href="https://github.com/NishimuraSeiji101" target="_blank">GitHub</a>にあります</p>                        
+                    </div>
+                    <div class="img1">
+                        <img src="img1.png" alt="animal1">
+                    </div>
+                </div>
+            </section>
+
+            <section class="works" id="works">
+                <div class="container">
+                    <div class="works-item1">
+                        <img src="img2.jpg" alt="works_logo">
+                        <h2>Works</h2>
+                    </div>
+                    <div class="works-item2">
+                        <h3>父親の自営業で必要な名刺、ウェブサイトのデザイン案を作成。</h3>
+                        <div class="img2">
+                            <img src="meisi1.jpg" alt="meisi1">
+                            <img src="meisi2.jpg" alt="meisi2">
+                        </div>
+                        <p>使用ツール：Inkscape　制作期間：約6時間</p>
+                    </div>
+                    <div class="works-item3">
+                        <div class="img3">
+                            <p>デスクトップ版</p>
+                            <img src="top.png" alt="homepage1">
+                        </div>
+                        <div class="img3">
+                            <p>モバイル版</p>
+                            <img src="smart.png" alt="homepage2">
+                        </div>
+                    </div>
+                    <p class="works-end">使用ツール：Local　制作期間：約6時間(Ligntningのテーマをカスタマイズ)</p>
+
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about-item1">
+                        <img src="img3.jpg" alt="works_logo">
+                        <h2>About</h2>
+                    </div>
+                    <div class="about-item2">
+                        <div class="about-item3">
+                            <div class="intro1">
+                                <h2>自己紹介</h2>
+                                <p>ゲームが趣味でしたが、最近は動物の写真をデジカメで撮ったり、絵を描くことを始めました。</p>
+                            </div>
+                            <div class="img4">
+                                <img src="img1.png" alt="animal4">
+                            </div>
+                        </div>
+
+                        <div class="about-item4">
+                            <div class="intro2">
+                                <h2>スキル</h2>
+                                <p>・HTML</p>
+                                <p>・CSS</p>
+                                <p>・JavaScript</p>
+                                <p>・Wordpress</p>
+                                <p>・Inkscape</p>
+                                <p>・Gimp</p>
+
+                                <h2>趣味で作った作品</h2>
+                                <p><a href="https://nishimuraseiji101.github.io/test2/test2.html">・野鳥壁紙サイト（製作期間：約2日）</a></p>
+                                <p><a href="https://nishimuraseiji101.github.io/meishi/meishi.html">・名刺ギャラリー（製作期間：約2日）</a></p>
+                                
+                            </div>
+                            <div class="img4">
+                                <img src="img4.jpg" alt="animal4">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="end">
+                    <h3>参考書：デザインをすらすら再現できるHTML/CSSブロックコーディング</h3>
+                    <h3>制作期間：約1日</h3>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

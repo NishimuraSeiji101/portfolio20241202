@@ -1,0 +1,230 @@
+/*Basic*/
+
+/*すべての要素に設定：コンテンツのサイズを自動調整*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/*内部リンクをクリックしたときスムーズに移動*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*フォント*/
+body{
+    font-family: "Arial";
+}
+
+/*リスト*/
+ul{
+    list-style: none;
+}
+
+/*行間*/
+p{
+    line-height: 1.8;
+}
+
+/*URLリンクにマウスカーソルを合わせるとアニメ*/
+a{
+    text-decoration: none;
+    border-bottom: solid 1px white;
+    color: white;
+}
+
+a, input, textarea{
+    transition: all 1s ease-in-out;
+}
+
+/*共通クラス*/
+
+/*全体*/
+
+/*ヘッダー*/
+header{
+    /*スクロールでヘッダー追従*/
+    background-color: #80f477;
+    position: fixed;
+
+    /*幅：タブレット基準*/
+    width: 100%;
+    top:0;
+    left: 0;
+
+    /*真ん中寄せ*/
+    display: flex;
+    justify-content: center;    
+
+    /*左右余白*/
+    margin: 0 auto;
+}
+
+/*メニュー*/
+.nav-menu{
+    /*横並び*/
+    display: flex;
+}
+
+.nav-menu{
+    /*メニュー横の余白を無くす*/
+    padding-left: 0px;
+}
+
+.nav-menu li{
+    padding: 0px 30px;
+}
+
+.text1{
+    padding-top: 50px;
+
+    /*全要素センター寄せ*/
+    text-align: center;
+}
+
+/*Home*/
+.home{
+    /*Worksとの余白*/
+    padding-bottom: 30px;
+
+    /*背景色*/
+    background-color: #97e20d;
+
+    /*文字色*/
+    color:white;
+}
+
+.img1{
+    /*ホーム画面；センター寄せ*/
+    text-align: center;
+}
+/*Home画像*/
+.img1 img{
+    width: 280px;
+    height: auto;
+}
+
+/*Works*/
+.works{
+    /*背景色*/
+    background-color: #bb8d5f;
+    
+    /*Worksとの余白*/
+    padding-top: 30px;
+}
+
+.works p{
+    text-align: center;
+    color: white;
+}
+
+/*worksブロック要素1*/
+.works-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-item1 h2{
+    padding-left: 20px;
+    color: white;
+}
+
+/*Works画像*/
+.works-item1 img{
+    width: 80px;
+    height: auto;
+}
+
+/*worksブロック要素2*/
+.works-item2 h3{
+    text-align: center;
+    color: white;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+}
+
+.img2 img{
+    width: 480px;
+    height: auto;
+    padding: 0 20px;
+}
+
+/*worksブロック要素3*/
+.works-item3{
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+}
+
+.works-end{
+    padding-bottom:20px;
+    margin-bottom: 0px;
+}
+
+.img3 img{
+    width: 480px;
+    height: auto;
+    padding: 0 20px;
+}
+
+/*About*/
+.about{
+    background-color: #eaffe1;
+}
+
+/*About要素1*/
+.about-item1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c6b32;
+}
+
+.about-item1 img{
+    width: 80px;
+    height: auto;
+    padding-right: 10px;
+}
+
+/*About要素3*/
+.about-item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c6b32;
+}
+
+/*About要素4*/
+.about-item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c6b32;
+}
+
+.intro1 , .intro2{
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.intro2 a{
+    color: #3c6b32;
+    border-bottom: #3c6b32 1px solid;
+}
+
+.img4 img{
+    width: 240px;
+    height: auto;
+    border-radius: 15%;
+}
+
+/*Footer要素*/
+.end{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
